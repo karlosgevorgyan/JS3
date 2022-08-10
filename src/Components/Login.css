@@ -1,0 +1,149 @@
+.Login{
+position: relative;
+width: 90vmax;
+height: 964px;
+background: #FFFFFF;
+}
+.group{
+position: absolute;
+width: 39vmax;
+height: 564.75px;
+left: 20px;
+top: 306px;
+background: url('./img/Group.svg');
+}
+.p1{
+position: absolute;
+width: 353px;
+height: 46px;
+left: 67px;
+top: 112px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 40px;
+letter-spacing: 0.25px;
+
+color: #11493E;
+}
+.div1{
+position: absolute;
+width: 39vmax;
+height: 964px;
+left: 866px;
+top: 0px;
+background: #E9F1F1;
+}
+.p2{
+position: absolute;
+width: 272px;
+height: 24px;
+left: 67px;
+top: 176px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.25px;
+color: #949494;
+}
+.p3{
+position: absolute;
+width: 87px;
+height: 35px;
+left: 85px;
+top: 267px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0.25px;
+color: #11493E;
+}
+.inp1{
+box-sizing: border-box;
+position: absolute;
+width: 29vmax;
+height: 45px;
+left: 8vmax;
+top: 331px;
+border: 1px solid #DEDEDE;
+border-radius: 4px;
+}
+.inp2{
+box-sizing: border-box;
+position: absolute;
+width: 29vmax;
+height: 45px;
+left: 8vmax;
+top: 396px;
+border: 1px solid #DEDEDE;
+border-radius: 4px;
+}
+.btn{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 30px;
+gap: 10px;
+
+position: absolute;
+width: 29vmax;
+height: 38px;
+left: 8vmax;
+top: 475px;
+background: #11493E;
+border-radius: 4px;
+color: white;
+}
+.p4{
+position: absolute;
+width: 10vmax;;
+height: 17px;
+left: 25vmax;
+top: 527px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #949494;
+}
+.link{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .group{
+        width: 345.99px;
+        height: 364.75px;
+        left: -50px;
+        top: 306px;
+        }
+        .div1{
+        width: 334px;
+        height: 700px;
+        left: 316px;
+        top: -30px;
+        }
+        .inp1,.inp2,.btn,.inp1,.p4{
+        width: 236.36px;
+        height: 45px;
+        left: 44px;
+        }
+        .p1{
+        width: 253px;
+        height: 46px;
+        left: 40px;
+        font-weight: 400;
+        font-size: 26px;
+        }
+        .p2{
+            left: 40px;
+        }
+  }
